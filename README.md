@@ -145,6 +145,15 @@
   - Prepared reports on specifications and activities for each project
 
 
+# Skills
+
+- **Programming Languages:** Java / Kotlin - JavaScript/TypeScript - Python - SQL - Rust - Go - Swift - C / C++ / C# - VB.NET
+- **Frameworks & Libraries:** Spring Framework - React / React Native - Redux Toolkit - Flutter - Angular - Apache Kafka (Streams, Connectors) - Apache Camel
+- **Databases:** Postgresql - MySQL - DB2 - Oracle DB - MongoDB - Redis - InfluxDB
+- **Cloud & DevOps:** AWS (EKS, EC2, S3, Athena ...) - Azure - GCP - Confluent - Firebase - Supabase - Docker - Kubernetes - OpenShift - Tekton - Jenkins - CircleCI - ArgoCD - Urbancode Deploy - SonarQube - Fastlane - Git
+- **Monitoring & Testing:** Elasticsearch - Kibana - Opensearch - Prometheus - Grafana - Jacoco - Robot Framework - JUnit - Mockito - Test Containers
+- **Additional Tools:** Keycloak - Push notifications - Swagger - Nginx - Atlassian Suite (Jira, Confluence, Forge)
+- **Methodologies:** Agile - Scrum - CI/CD
 # Languages
 
 - **Arabic** (Native) - **French** (Bilingual) - **English** (Professional) - **Italian** (Professional)
