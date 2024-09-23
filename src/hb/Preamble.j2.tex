@@ -14,7 +14,9 @@
 \usepackage{tabularx} % for making tables with fixed width columns
 \usepackage{array} % tabularx requires this
 \usepackage[dvipsnames]{xcolor} % for coloring text
-\definecolor{primaryColor}{RGB}{<<design.color.as_rgb_tuple()|join(", ")>>} % define primary color
+\definecolor{primaryColor}{RGB}{<<design.primary_color.as_rgb_tuple()|join(", ")>>} % define primary color
+\definecolor{secondaryColor}{RGB}{<<design.secondary_color.as_rgb_tuple()|join(", ")>>} % define secondary color
+\definecolor{tertiaryColor}{RGB}{<<design.tertiary_color.as_rgb_tuple()|join(", ")>>} % define tertiary color
 \usepackage{enumitem} % for customizing lists
 \usepackage{fontawesome5} % for using icons
 \usepackage{amsmath} % for math
@@ -119,6 +121,18 @@
         partopsep=0pt,
         itemsep=0pt,
         leftmargin=<<design.margins.highlights_area.left>> + 10pt
+    ]
+}{
+    \end{itemize}
+} % new environment for highlights
+
+\newenvironment{projects}{
+    \begin{itemize}[
+        topsep=<<design.margins.projects_area.top>>,
+        parsep=<<design.margins.projects_area.vertical_between_projects>>,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=<<design.margins.projects_area.left>> + 10pt
     ]
 }{
     \end{itemize}

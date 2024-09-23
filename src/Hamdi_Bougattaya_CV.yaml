@@ -1,0 +1,229 @@
+cv:
+  name: Hamdi BOUGATTAYA
+  position: SENIOR KAFKA / JAVA FULL STACK ENGINEER
+  location: Pisa, Italy
+  email: h.bougattaya1212@gmail.com
+  phone: tel:+39 351 951 8866
+  website: https://bio.link/h_bougattaya
+  social_networks:
+    - network: LinkedIn
+      username: hb12devtn
+    - network: GitHub
+      username: hb12devtn
+  sections:
+    education:
+      - institution: University of Aix-Marseille
+        area: Computer Science and Mathematics
+        start_date: 2018
+        end_date: 2021
+      - institution: CNED, Paris
+        area: Diploma of Advanced Technician in Computer Science
+        start_date: 2016
+        end_date: 2018
+      - institution: University of Pisa
+        area: Computer Science (1st year)
+        start_date: 2015
+        end_date: 2016
+    professional_experience:
+      - company: Extrared Srl
+        position: Senior Software Developer
+        location: Pontedera, Italy
+        start_date: 2022-01
+        end_date: present
+        projects:
+          - customer: Autostrade per l'Italia S.p.A
+            title: IoT data collection, processing and enrichment
+            highlights:
+              - Data collection using Kafka connectors
+              - Developed several Kafka Streams applications to process and enrich data
+              - Implemented automated testing with Robot Framework, increasing test coverage and minimizing manual QA efforts
+              - Managed CI/CD process
+            technologies:
+              - Java J2EE
+              - Spring Framework
+              - Kafka
+              - Kafka Streams
+              - Kafka Connectors
+              - Confluent
+              - Elasticsearch
+              - OpenShift
+              - AWS (EKS, EC2, S3, Athena)
+              - Redis
+              - Kibana
+              - Jacoco
+              - Robot Framework
+              - Docker
+              - Kubernetes
+              - Jenkins
+              - SonarQube
+              - ArgoCD
+              - Urbancode Deploy
+          - customer: Fendi
+            title: Fendi Events Manager
+            highlights:
+              - Developed an event management platform, improving client booking experience
+            technologies:
+              - Java J2EE
+              - Spring Framework
+              - Postgresql
+              - React
+              - Redux Toolkit
+              - MUI
+              - ViteJS
+              - Swagger
+              - Nginx
+          - customer: Coopservice
+            title: Kimer@ mobile app
+            highlights:
+              - Developed an asset management mobile app
+            technologies:
+              - Java
+              - Spring Framework
+              - React Native
+              - Keycloak
+              - Firebase
+              - Push notifications
+              - Fastlane
+      - company: Extracube Srl
+        position: Senior Software Developer
+        location: Pontedera, Italy
+        start_date: 2019-07
+        end_date: 2021-12
+        projects:
+          - customer: Extra GROUP
+            title: Jira Expense Plugin
+            highlights:
+              - Developed a Jira plugin to manage employees expense reports
+            technologies:
+              - Java
+              - Spring Framework
+              - Postgresql
+              - React
+              - Redux Toolkit
+              - MUI
+              - Atlassian UI kit
+              - Atlassian Forge
+              - Openshift
+              - Tekton
+          - customer: Banca Intesa Sanpaolo
+            title: Roky, Shareholders
+            highlights:
+              - Developed banking and financial microservices
+              - Ensured quality with unit tests and Jacoco
+            technologies:
+              - Java
+              - Spring Framework (Boot, Batch)
+              - Openshift
+              - Keycloak
+              - Kafka
+              - DB2
+              - Oracle DB
+              - Jacoco
+              - JUnit
+              - Jenkins
+      - company: Municipia Spa (ex Kiunsys Srl)
+        position: Software Developer
+        location: Pisa, Italy
+        start_date: 2017-12
+        end_date: 2019-07
+        projects:
+          - customer: T-SYSTEMS Deutsche Telekom
+            title: Park and Joy
+            highlights:
+              - Developed REST APIs for a mobile application (Park and Joy)
+              - Developed a dashboard to track parking statistics
+              - Ensured quality with unit tests
+              - Improved existing code using SOLID design principles
+            technologies:
+              - Java
+              - Spring Framework
+              - JSP/Servlet
+              - MySQL
+              - AWS
+              - Docker
+              - Jenkins
+              - CircleCI
+              - Jira
+              - Confluence
+              - Angular
+      - company: Daxo Mobile and RFID
+        position: Web Developer
+        location: Pisa, Italy
+        start_date: 2017-09
+        end_date: 2017-12
+        projects:
+          - customer: FUTURA and UC CONVERTING
+            title: CMMS (Computerized Maintenance Management System)
+            highlights:
+              - Developed a computerized maintenance management system
+            technologies:
+              - Java
+              - Spring Framework
+              - Postgresql
+              - AWS
+              - Docker
+              - InfluxDB
+              - Prometheus
+              - Grafana
+              - Angular
+      - company: Microzed
+        position: Software Developer Intern
+        location: Megrine, Tunisia
+        start_date: 2017-01
+        end_date: 2017-06
+        projects:
+          - customer: BOMI
+            title: CRM (Customer Relationship Management)
+            highlights:
+              - Modified existing software to detect and correct errors, improve performance, and upgrade interfaces
+              - Prepared reports on specifications and activities for each project
+            technologies:
+              - Visual Studio
+              - .NET
+              - C\#
+              - VB.NET
+    languages:
+      - bullet: "**Arabic** (Native) - **French** (Bilingual) - **English** (Professional) - **Italian** (Professional)"
+design:
+  theme: hb
+  font: Source Sans 3
+  font_size: 10pt
+  page_size: a4paper
+  primary_color: '#136382'
+  secondary_color: '#438099'
+  tertiary_color: '#1EA0CE'
+  disable_external_link_icons: false
+  disable_page_numbering: false
+  page_numbering_style: Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: false
+  last_updated_date_style: Last updated in TODAY
+  header_font_size: 30 pt
+  text_alignment: justified
+  seperator_between_connections: ''
+  use_icons_for_connections: true
+  margins:
+    page:
+      top: 2 cm
+      bottom: 2 cm
+      left: 2 cm
+      right: 2 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 4.5 cm
+      education_degree_width: 1 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.10 cm
+    projects_area:
+      top: 0.10 cm
+      left: 0.8 cm
+      vertical_between_projects: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0.3 cm
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm
