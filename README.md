@@ -11,7 +11,7 @@
 
 # Education
 
-## University of Aix-Marseille, Computer Science and Mathematics
+## University of Aix-Marseille, BSc of Computer Science and Mathematics
 
 - 2018 – 2021
 
@@ -19,7 +19,7 @@
 
 - 2016 – 2018
 
-## University of Pisa, Computer Science (1st year)
+## University of Pisa, BSc of Computer Science (1st year)
 
 - 2015 – 2016
 

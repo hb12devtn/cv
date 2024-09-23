@@ -13,7 +13,7 @@ cv:
   sections:
     education:
       - institution: University of Aix-Marseille
-        area: Computer Science and Mathematics
+        area: BSc of Computer Science and Mathematics
         start_date: 2018
         end_date: 2021
       - institution: CNED, Paris
@@ -21,7 +21,7 @@ cv:
         start_date: 2016
         end_date: 2018
       - institution: University of Pisa
-        area: Computer Science (1st year)
+        area: BSc of Computer Science (1st year)
         start_date: 2015
         end_date: 2016
     professional_experience:
