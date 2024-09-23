@@ -9,9 +9,12 @@
 
 ((* if entry.date_string or entry.location *))
 \begin{twocolentry}{
-    <<date_and_location_strings|join("\n\n")>>
+    \fontsize{14}{18}<<date_and_location_strings|join("\n\n")>>
+    \normalsize
 }
+    \fontsize{12}{16}
     \textcolor{secondaryColor}{\faBriefcase\hspace{4pt}\textbf{<<entry.company>>},} <<entry.position>>
+    \normalsize
     ((* for item in entry.highlights *))
         ((* if loop.first *))
     \begin{highlights}
@@ -47,7 +50,9 @@
 \end{twocolentry}
 ((* else *))
 \begin{onecolentry}
-    \faBriefcase\hspace{4pt}\textbf{<<entry.company>>}, <<entry.position>>
+    \fontsize{12}{16}
+    \textcolor{secondaryColor}{\faBriefcase\hspace{4pt}\textbf{<<entry.company>>},} <<entry.position>>
+    \normalsize
     ((* for item in entry.highlights *))
         ((* if loop.first *))
     \begin{highlights}
