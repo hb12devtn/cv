@@ -145,6 +145,9 @@
   - Prepared reports on specifications and activities for each project
 
 
+# Certifications
+
+- **Red Hat Certified Cloud-native Developer (November 2024)**
 # Skills
 
 - **Programming Languages:** Java / Kotlin - JavaScript/TypeScript - Python - SQL - Rust - Go - Swift - C / C++ / C# - VB.NET
