@@ -1,1 +1,1 @@
-rendercv-hb==1.15
+rendercv-hb==1.16
