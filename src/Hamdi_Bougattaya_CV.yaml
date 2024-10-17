@@ -3,8 +3,8 @@ cv:
   position: SENIOR KAFKA / JAVA FULL STACK ENGINEER
   location: Pisa, Italy
   email: h.bougattaya1212@gmail.com
-  whatsapp: tel:+39 351 951 8866
-  phone: tel:+216 52 240 967
+  whatsapp: +39 351 951 8866
+  phone: +216 52 240 967
   website: https://bio.link/h_bougattaya
   social_networks:
     - network: LinkedIn
@@ -238,3 +238,5 @@ design:
       vertical_between_name_and_connections: 0.3 cm
       bottom: 0.3 cm
       horizontal_between_connections: 0.5 cm
+locale_catalog:
+  phone_number_format: international
