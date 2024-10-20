@@ -148,6 +148,7 @@
 # Certifications
 
 - **Red Hat Certified Cloud-native Developer (November 2024)**
+- **Google Associate Cloud Engineer (November 2024)**
 # Skills
 
 - **Programming Languages:** Java / Kotlin - JavaScript/TypeScript - Python - SQL - Rust - Go - Swift - C / C++ / C# - VB.NET
