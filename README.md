@@ -147,7 +147,7 @@
 
 # Certifications
 
-- **Red Hat Certified Cloud-native Developer (November 2024)**
+- **Red Hat Certified Cloud-native Developer [240-218-073](https://www.credly.com/badges/964e4256-5e0b-485d-805e-09487e880f67/linked_in_profile)**
 - **Google Associate Cloud Engineer (November 2024)**
 # Skills
 
