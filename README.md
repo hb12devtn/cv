@@ -147,8 +147,8 @@
 
 # Certifications
 
-- **Red Hat Certified Cloud-native Developer [240-218-073](https://www.credly.com/badges/964e4256-5e0b-485d-805e-09487e880f67/linked_in_profile)**
-- **Google Associate Cloud Engineer (November 2024)**
+- **Red Hat Certified Cloud-native Developer [(ID: 240-218-073)](https://www.credly.com/badges/964e4256-5e0b-485d-805e-09487e880f67/linked_in_profile)**
+- **Google Cloud Associate Cloud Engineer [(ID: 922f565d6af546a6b9c131668f1295e0)](https://www.credly.com/badges/188831a0-a454-4e61-9270-939c511e3a0b/linked_in_profile)**
 # Skills
 
 - **Programming Languages:** Java / Kotlin - JavaScript/TypeScript - Python - SQL - Rust - Go - Swift - C / C++ / C# - VB.NET
