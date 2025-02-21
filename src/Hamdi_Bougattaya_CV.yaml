@@ -1,17 +1,19 @@
 cv:
   name: Hamdi BOUGATTAYA
-  position: SENIOR KAFKA / JAVA FULL STACK ENGINEER
-  location: Pisa, Italy
+  position: SENIOR FULL STACK JAVA DEVELOPER & KAFKA SPECIALIST
+  location: Riyadh, Saudi Arabia
   email: h.bougattaya1212@gmail.com
-  whatsapp: +39 351 951 8866
-  phone: +216 52 240 967
+  phone: +966 54 932 6108
   website: https://bio.link/h_bougattaya
+  #photo: hb.png
   social_networks:
     - network: LinkedIn
       username: hb12devtn
     - network: GitHub
       username: hb12devtn
   sections:
+    professional_summary:
+      - Experienced Senior Full Stack Java Developer & Kafka Specialist with expertise in building scalable microservices, real-time data streaming solutions, and cloud-native architectures. Strong background in Spring Boot, Kafka, Kubernetes, and DevOps practices. Passionate about leveraging AI and cloud technologies to optimize large-scale distributed systems.
     education:
       - institution: University of Aix-Marseille
         area: BSc of Computer Science and Mathematics
@@ -26,12 +28,38 @@ cv:
         start_date: 2015
         end_date: 2016
     professional_experience:
+      - company: Tahakom
+        position: Senior Java Developer
+        location: Riyadh, Saudi Arabia
+        start_date: 2025-02
+        end_date: present
       - company: Extrared Srl
         position: Senior Software Developer
         location: Pontedera, Italy
         start_date: 2022-01
-        end_date: present
+        end_date: 2025-01
         projects:
+          - customer: Azienda Unità Sanitaria Locale della Bologna (AUSL Bologna)
+            title: Healthcare APIs and Microservices for mobile apps
+            highlights:
+              - Led the backend architecture and system design, ensuring scalability, security, and maintainability.
+              - Designed and implemented microservices architecture to power AUSL Bologna's healthcare mobile applications.
+              - Developed RESTful APIs for seamless communication between mobile apps, internal systems, and third-party services.
+              - Integrated third-party healthcare services, including identity management, external APIs, and patient data platforms.
+              - Built the entire CI/CD pipeline from scratch, leveraging GitLab CI/CD and ArgoCD for automated deployments on OpenShift.
+              - Enforced code quality and security standards, incorporating SonarQube and automated testing into the CI/CD workflow.
+            technologies:
+              - Java J2EE
+              - Spring Framework
+              - OpenShift
+              - Jacoco
+              - SonarQube
+              - Docker
+              - Kubernetes
+              - GitLab CI/CD
+              - ArgoCD
+              - Keycloak
+              - Prometheus
           - customer: Autostrade per l'Italia S.p.A
             title: IoT data collection, processing and enrichment
             highlights:
@@ -184,8 +212,9 @@ cv:
               - C\#
               - VB.NET
     certifications:
-      - bullet: "**Red Hat Certified Cloud-native Developer [(ID: 240-218-073)](https://www.credly.com/badges/964e4256-5e0b-485d-805e-09487e880f67/linked_in_profile)**"
+      - bullet: "**Google Cloud Professional Cloud Architect **"
       - bullet: "**Google Cloud Associate Cloud Engineer [(ID: 922f565d6af546a6b9c131668f1295e0)](https://www.credly.com/badges/188831a0-a454-4e61-9270-939c511e3a0b/linked_in_profile)**"
+      - bullet: "**Red Hat Certified Cloud-native Developer [(ID: 240-218-073)](https://www.credly.com/badges/964e4256-5e0b-485d-805e-09487e880f67/linked_in_profile)**"
     skills:
       - bullet: "**Programming Languages:** Java / Kotlin - JavaScript/TypeScript - Python - SQL - Rust - Go - Swift - C / C++ / C# - VB.NET"
       - bullet: "**Frameworks & Libraries:** Spring Framework - React / React Native - Redux Toolkit - Flutter - Angular - Apache Kafka (Streams, Connectors) - Apache Camel"
@@ -206,12 +235,9 @@ design:
   tertiary_color: '#1EA0CE'
   disable_external_link_icons: false
   disable_page_numbering: false
-  page_numbering_style: Page PAGE_NUMBER of TOTAL_PAGES
   disable_last_updated_date: false
-  last_updated_date_style: Last updated in TODAY
   header_font_size: 30 pt
   text_alignment: justified
-  seperator_between_connections: ''
   use_icons_for_connections: true
   margins:
     page:
@@ -241,3 +267,5 @@ design:
       horizontal_between_connections: 0.5 cm
 locale_catalog:
   phone_number_format: international
+  page_numbering_style: Page PAGE_NUMBER of TOTAL_PAGES
+  last_updated_date_style: Last updated in TODAY

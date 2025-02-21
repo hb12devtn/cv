@@ -3,17 +3,27 @@
     \ignorespaces
 }
 \newsavebox\ANDbox
-\sbox\ANDbox{<<design.seperator_between_connections>>}
+\sbox\ANDbox{<<design.separator_between_connections>>}
 
 ((* if not design.disable_last_updated_date *))
 \placelastupdatedtext
 ((* endif *))
 ((* if cv.name is not none *))
+
+((* if cv.photo is not none *))
+\begin{twocolheadercontainer}{
+    \includegraphics[width=\linewidth]{<<cv.photo.name>>}
+
+}
+((* endif *))
 \begin{header}
+    ((* if cv.photo is not none *))
+    \raggedright
+    ((* endif *))
     \fontsize{<<design.header_font_size>>}{<<design.header_font_size>>}
     \textbf{<<cv.name>>}
 
-    \textcolor{secondaryColor}{\textsubscript{\normalsize <<cv.position>>}}
+    \textcolor{secondaryColor}{\textsubscript{\normalsize <<cv.position|escape_latex_characters>>}}
 
     \vspace{<<design.margins.header.vertical_between_name_and_connections>>}
 
@@ -39,6 +49,9 @@
         ((* endif *))
     ((* endfor *))
 \end{header}
+((* if cv.photo is not none *))
+\end{twocolheadercontainer}
+((* endif *))
 
 \vspace{<<design.margins.header.bottom>> - <<design.margins.section_title.top>>}
 ((* endif *))
