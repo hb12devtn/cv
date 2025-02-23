@@ -1,13 +1,17 @@
 # Hamdi BOUGATTAYA's CV
-### SENIOR KAFKA / JAVA FULL STACK ENGINEER
+### SENIOR FULL STACK JAVA DEVELOPER & KAFKA SPECIALIST
 
-- Phone: +216 52 240 967
+- Phone: +966 54 932 6108
 - Email: [h.bougattaya1212@gmail.com](mailto:h.bougattaya1212@gmail.com)
-- Location: Pisa, Italy
+- Location: Riyadh, Saudi Arabia
 - Website: [bio.linkh_bougattaya](https://bio.link/h_bougattaya)
 - LinkedIn: [hb12devtn](https://linkedin.com/in/hb12devtn)
 - GitHub: [hb12devtn](https://github.com/hb12devtn)
 
+
+# Professional Summary
+
+Experienced Senior Full Stack Java Developer & Kafka Specialist with expertise in building scalable microservices, real-time data streaming solutions, and cloud-native architectures. Strong background in Spring Boot, Kafka, Kubernetes, and DevOps practices. Passionate about leveraging AI and cloud technologies to optimize large-scale distributed systems.
 
 # Education
 
@@ -25,12 +29,32 @@
 
 # Professional Experience
 
+## Tahakom, Senior Java Developer
+
+- Feb 2025 – present
+- Riyadh, Saudi Arabia
+
+
 ## Extrared Srl, Senior Software Developer
 
-- Jan 2022 – present
+- Jan 2022 – Jan 2025
 - Pontedera, Italy
 
 ### Projects:
+
+#### **Customer**: *Azienda Unità Sanitaria Locale della Bologna (AUSL Bologna)*
+
+- **Project**: *Healthcare APIs and Microservices for mobile apps*
+
+  - **Technologies**: _Java J2EE - Spring Framework - OpenShift - Jacoco - SonarQube - Docker - Kubernetes - GitLab CI/CD - ArgoCD - Keycloak - Prometheus_
+
+  - **Highlights**:
+  - Led the backend architecture and system design, ensuring scalability, security, and maintainability.
+  - Designed and implemented microservices architecture to power AUSL Bologna's healthcare mobile applications.
+  - Developed RESTful APIs for seamless communication between mobile apps, internal systems, and third-party services.
+  - Integrated third-party healthcare services, including identity management, external APIs, and patient data platforms.
+  - Built the entire CI/CD pipeline from scratch, leveraging GitLab CI/CD and ArgoCD for automated deployments on OpenShift.
+  - Enforced code quality and security standards, incorporating SonarQube and automated testing into the CI/CD workflow.
 
 #### **Customer**: *Autostrade per l'Italia S.p.A*
 
@@ -147,8 +171,9 @@
 
 # Certifications
 
-- **Red Hat Certified Cloud-native Developer [(ID: 240-218-073)](https://www.credly.com/badges/964e4256-5e0b-485d-805e-09487e880f67/linked_in_profile)**
+- **Google Cloud Professional Cloud Architect [(ID: 704c44155d784a53956e66a52e72a3d4)](https://www.credly.com/badges/f1d34bb6-45d6-455d-807a-50e7cd71314d/linked_in_profile)**
 - **Google Cloud Associate Cloud Engineer [(ID: 922f565d6af546a6b9c131668f1295e0)](https://www.credly.com/badges/188831a0-a454-4e61-9270-939c511e3a0b/linked_in_profile)**
+- **Red Hat Certified Cloud-native Developer [(ID: 240-218-073)](https://www.credly.com/badges/964e4256-5e0b-485d-805e-09487e880f67/linked_in_profile)**
 # Skills
 
 - **Programming Languages:** Java / Kotlin - JavaScript/TypeScript - Python - SQL - Rust - Go - Swift - C / C++ / C# - VB.NET

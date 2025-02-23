@@ -47,6 +47,7 @@
 \fi
 
 \usepackage[default, type1]{sourcesanspro} 
+\usepackage{graphicx} % for the profile picture
 
 % Some settings:
 \AtBeginEnvironment{adjustwidth}{\partopsep0pt} % remove space before adjustwidth environment
@@ -170,10 +171,21 @@
         \LenToUnit{\paperwidth-2 cm-0.2 cm+0.05cm},
         \LenToUnit{\paperheight-1.0 cm}
     ){\vtop{{\null}\makebox[0pt][c]{
-        \small\color{gray}\textit{Last updated in November 2024}\hspace{\widthof{Last updated in November 2024}}
+        \small\color{gray}\textit{Last updated in Feb 2025}\hspace{\widthof{Last updated in Feb 2025}}
     }}}%
   }%
 }%
+
+\newenvironment{twocolheadercontainer}[2][]{
+    \onecolentry
+    \def\secondColumn{#2}
+    \setcolumnwidth{\fill, 0.2\linewidth}
+    \begin{paracol}{2}
+}{
+    \switchcolumn \raggedleft \secondColumn
+    \end{paracol}
+    \endonecolentry
+} % new environment for headers with profile pictures
 
 % save the original href command in a new command:
 \let\hrefWithoutArrow\href
@@ -191,16 +203,17 @@
     \sbox\ANDbox{}
 
     \placelastupdatedtext
+
     \begin{header}
         \fontsize{30 pt}{30 pt}
         \textbf{Hamdi BOUGATTAYA}
 
-        \textcolor{secondaryColor}{\textsubscript{\normalsize SENIOR KAFKA / JAVA FULL STACK ENGINEER}}
+        \textcolor{secondaryColor}{\textsubscript{\normalsize SENIOR FULL STACK JAVA DEVELOPER \& KAFKA SPECIALIST}}
 
         \vspace{0.3 cm}
 
         \normalsize
-        \mbox{{\footnotesize\faMapMarker*}\hspace*{0.13cm}Pisa, Italy}%
+        \mbox{{\footnotesize\faMapMarker*}\hspace*{0.13cm}Riyadh, Saudi Arabia}%
         \kern 0.25 cm%
         \AND%
         \kern 0.25 cm%
@@ -208,11 +221,7 @@
         \kern 0.25 cm%
         \AND%
         \kern 0.25 cm%
-        \mbox{\hrefWithoutArrow{tel:+216-52-240-967}{{\footnotesize\faPhone*}\hspace*{0.13cm}+216 52 240 967}}%
-        \kern 0.25 cm%
-        \AND%
-        \kern 0.25 cm%
-        \mbox{\hrefWithoutArrow{+39 351 951 8866}{{\footnotesize\faWhatsapp}\hspace*{0.13cm}+39 351 951 8866}}%
+        \mbox{\hrefWithoutArrow{tel:+966-54-932-6108}{{\footnotesize\faPhone*}\hspace*{0.13cm}+966 54 932 6108}}%
         \kern 0.25 cm%
         \AND%
         \kern 0.25 cm%
@@ -230,6 +239,17 @@
     \vspace{0.3 cm - 0.3 cm}
 
 
+    \section{Professional Summary}
+
+
+
+        
+        \begin{onecolentry}
+            Experienced Senior Full Stack Java Developer \& Kafka Specialist with expertise in building scalable microservices, real-time data streaming solutions, and cloud-native architectures. Strong background in Spring Boot, Kafka, Kubernetes, and DevOps practices. Passionate about leveraging AI and cloud technologies to optimize large-scale distributed systems.
+        \end{onecolentry}
+
+
+    
     \section{Education}
 
 
@@ -265,9 +285,24 @@
 
         
         \begin{twocolentry}{
+            \fontsize{14}{18}Riyadh, Saudi Arabia
+
+        Feb 2025 – present
+            \normalsize
+        }
+            \fontsize{12}{16}
+            \textcolor{secondaryColor}{\faBriefcase\hspace{4pt}\textbf{Tahakom},} Senior Java Developer
+            \normalsize
+
+        \end{twocolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
             \fontsize{14}{18}Pontedera, Italy
 
-        Jan 2022 – present
+        Jan 2022 – Jan 2025
             \normalsize
         }
             \fontsize{12}{16}
@@ -275,6 +310,26 @@
             \normalsize
 
             \vspace{0.10 cm}
+                \vspace{0.10 cm}
+
+                \textcolor{tertiaryColor}{\faAngleDoubleRight\hspace{0.1cm}\underline{\textit{Customer:} \textit{Azienda Unità Sanitaria Locale della Bologna (AUSL Bologna)}}}
+
+                \vspace{0.2cm}
+                \textbf{Project \faAngleRight} \textit{Healthcare APIs and Microservices for mobile apps:}
+
+                \begin{highlights}
+                        \item Led the backend architecture and system design, ensuring scalability, security, and maintainability.
+                        \item Designed and implemented microservices architecture to power AUSL Bologna's healthcare mobile applications.
+                        \item Developed RESTful APIs for seamless communication between mobile apps, internal systems, and third-party services.
+                        \item Integrated third-party healthcare services, including identity management, external APIs, and patient data platforms.
+                        \item Built the entire CI/CD pipeline from scratch, leveraging GitLab CI/CD and ArgoCD for automated deployments on OpenShift.
+                        \item Enforced code quality and security standards, incorporating SonarQube and automated testing into the CI/CD workflow.
+                \end{highlights}
+                \faBuffer
+                \textbf{ Technologies:} \textit{Java J2EE - Spring Framework - OpenShift - Jacoco - SonarQube - Docker - Kubernetes - GitLab CI/CD - ArgoCD - Keycloak - Prometheus}
+
+                \vspace{0.10 cm}
+
                 \vspace{0.10 cm}
 
                 \textcolor{tertiaryColor}{\faAngleDoubleRight\hspace{0.1cm}\underline{\textit{Customer:} \textit{Autostrade per l'Italia S.p.A}}}
@@ -478,9 +533,11 @@
         \begin{highlightsforbulletentries}
 
 
-        \item \textbf{Red Hat Certified Cloud-native Developer \href{https://www.credly.com/badges/964e4256-5e0b-485d-805e-09487e880f67/linked_in_profile}{(ID: 240-218-073)}}
+        \item \textbf{Google Cloud Professional Cloud Architect \href{https://www.credly.com/badges/f1d34bb6-45d6-455d-807a-50e7cd71314d/linked_in_profile}{(ID: 704c44155d784a53956e66a52e72a3d4)}}
 
         \item \textbf{Google Cloud Associate Cloud Engineer \href{https://www.credly.com/badges/188831a0-a454-4e61-9270-939c511e3a0b/linked_in_profile}{(ID: 922f565d6af546a6b9c131668f1295e0)}}
+
+        \item \textbf{Red Hat Certified Cloud-native Developer \href{https://www.credly.com/badges/964e4256-5e0b-485d-805e-09487e880f67/linked_in_profile}{(ID: 240-218-073)}}
 
 
         \end{highlightsforbulletentries}
