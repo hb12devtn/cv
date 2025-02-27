@@ -29,7 +29,7 @@ Experienced Senior Full Stack Java Developer & Kafka Specialist with expertise i
 
 # Professional Experience
 
-## Tahakom, Senior Java Developer
+## Tahakom, Senior Software Developer
 
 - Feb 2025 – present
 - Riyadh, Saudi Arabia
