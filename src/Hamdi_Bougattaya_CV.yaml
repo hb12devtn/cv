@@ -35,7 +35,7 @@ cv:
         end_date: present
         projects:
           - customer: Tahakom
-            title: Safety & Security Platform System
+            title: Safety \& Security Platform System
             highlights:
               - Developed a comprehensive multi-platform safety and security management system with mobile (Flutter) and web (Angular) interfaces
               - Built FastAPI backend with SQL Server database, Azure AD authentication, and Firebase push notifications

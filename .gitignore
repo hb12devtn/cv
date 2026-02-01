@@ -559,3 +559,5 @@ cython_debug/
 #.idea/
 
 aider*
+
+.DS_STORE
