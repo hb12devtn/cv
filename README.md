@@ -50,14 +50,16 @@ Experienced Senior Full Stack Java Developer & Kafka Specialist with expertise i
 
 #### **Customer**: *Tahakom*
 
-- **Project**: *Partners Mobile Application*
+- **Project**: *Vehicle Check Mobile Application*
 
   - **Technologies**: _Flutter - Dart - Riverpod - GoRouter - Flutter AppAuth - Flutter Secure Storage_
 
   - **Highlights**:
-  - Built cross-platform mobile application (iOS/Android) for Tahakom business partnership management
-  - Implemented multi-environment deployment (Dev, Staging, Production) with secure authentication
-  - Developed responsive UI with Arabic language support and custom theming
+  - Built Flutter-based fleet management solution for vehicle check-in/check-out operations
+  - Developed vehicle inventory management with search, filters, and photo-documented safety inspections
+  - Implemented driver assignment tracking and comprehensive reporting features
+  - Built offline-first architecture with automatic sync and Azure AD authentication
+  - Delivered Arabic/English localization support
 
 #### **Customer**: *Tahakom*
 
