@@ -34,6 +34,42 @@ Experienced Senior Full Stack Java Developer & Kafka Specialist with expertise i
 - Feb 2025 – present
 - Riyadh, Saudi Arabia
 
+### Projects:
+
+#### **Customer**: *Tahakom*
+
+- **Project**: *Safety \& Security Platform System*
+
+  - **Technologies**: _Flutter - Angular - FastAPI - Python - SQL Server - SQLAlchemy - Alembic - Azure AD (MSAL) - Firebase - AWS S3 - Docker - GitLab CI/CD_
+
+  - **Highlights**:
+  - Developed a comprehensive multi-platform safety and security management system with mobile (Flutter) and web (Angular) interfaces
+  - Built FastAPI backend with SQL Server database, Azure AD authentication, and Firebase push notifications
+  - Implemented location-based tracking, inspection workflows, and task management features
+  - Created PDF report generation and multi-language support (English/Arabic)
+
+#### **Customer**: *Tahakom*
+
+- **Project**: *Partners Mobile Application*
+
+  - **Technologies**: _Flutter - Dart - Riverpod - GoRouter - Flutter AppAuth - Flutter Secure Storage_
+
+  - **Highlights**:
+  - Built cross-platform mobile application (iOS/Android) for Tahakom business partnership management
+  - Implemented multi-environment deployment (Dev, Staging, Production) with secure authentication
+  - Developed responsive UI with Arabic language support and custom theming
+
+#### **Customer**: *Tahakom*
+
+- **Project**: *Multi-format Document Merger*
+
+  - **Technologies**: _React - TypeScript - Vite - TailwindCSS - FastAPI - Python - pikepdf - Gotenberg - Docker - Docker Compose - Nginx_
+
+  - **Highlights**:
+  - Developed full-stack web application for converting and merging 12+ file formats into PDF documents
+  - Built React frontend with drag-and-drop file upload and FastAPI backend with async processing
+  - Integrated Gotenberg service for document conversion (LibreOffice + Chromium)
+
 
 ## Extrared Srl, Senior Software Developer
 
