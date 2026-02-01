@@ -33,6 +33,58 @@ cv:
         location: Riyadh, Saudi Arabia
         start_date: 2025-02
         end_date: present
+        projects:
+          - customer: Tahakom
+            title: Safety & Security Platform System
+            highlights:
+              - Developed a comprehensive multi-platform safety and security management system with mobile (Flutter) and web (Angular) interfaces
+              - Built FastAPI backend with SQL Server database, Azure AD authentication, and Firebase push notifications
+              - Implemented location-based tracking, inspection workflows, and task management features
+              - Created PDF report generation and multi-language support (English/Arabic)
+            technologies:
+              - Flutter
+              - Angular
+              - FastAPI
+              - Python
+              - SQL Server
+              - SQLAlchemy
+              - Alembic
+              - Azure AD (MSAL)
+              - Firebase
+              - AWS S3
+              - Docker
+              - GitLab CI/CD
+          - customer: Tahakom
+            title: Partners Mobile Application
+            highlights:
+              - Built cross-platform mobile application (iOS/Android) for Tahakom business partnership management
+              - Implemented multi-environment deployment (Dev, Staging, Production) with secure authentication
+              - Developed responsive UI with Arabic language support and custom theming
+            technologies:
+              - Flutter
+              - Dart
+              - Riverpod
+              - GoRouter
+              - Flutter AppAuth
+              - Flutter Secure Storage
+          - customer: Tahakom
+            title: Multi-format Document Merger
+            highlights:
+              - Developed full-stack web application for converting and merging 12+ file formats into PDF documents
+              - Built React frontend with drag-and-drop file upload and FastAPI backend with async processing
+              - Integrated Gotenberg service for document conversion (LibreOffice + Chromium)
+            technologies:
+              - React
+              - TypeScript
+              - Vite
+              - TailwindCSS
+              - FastAPI
+              - Python
+              - pikepdf
+              - Gotenberg
+              - Docker
+              - Docker Compose
+              - Nginx
       - company: Extrared Srl
         position: Senior Software Developer
         location: Pontedera, Italy
