@@ -1,5 +1,5 @@
 # Hamdi BOUGATTAYA's CV
-### SENIOR FULL STACK JAVA DEVELOPER & KAFKA SPECIALIST
+### SOLUTION ARCHITECT | FULL-STACK DEVELOPER | AI BUILDER
 
 - Phone: +966 54 932 6108
 - Email: [h.bougattaya1212@gmail.com](mailto:h.bougattaya1212@gmail.com)
